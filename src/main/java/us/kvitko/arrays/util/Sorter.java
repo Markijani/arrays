@@ -5,22 +5,21 @@ import java.util.Arrays;
 
 public class Sorter {
 
-    public static void sortArray() {
-        int[] arr = new int[] {2, -3, 1, 1};
+    public static void sortArray(int [] arr1) {
         boolean isSorted = false;
         int buf;
         while (!isSorted) {
             isSorted = true;
-            for (int i = 0; i < arr.length - 1; i++) {
-                if (arr[i] > arr[i + 1]) {
+            for (int i = 0; i < arr1.length - 1; i++) {
+                if (arr1[i] > arr1[i + 1]) {
                     isSorted = false;
-                    buf = arr[i];
-                    arr[i] = arr[i + 1];
-                    arr[i + 1] = buf;
+                    buf = arr1[i];
+                    arr1[i] = arr1[i + 1];
+                    arr1[i + 1] = buf;
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr1));
     }
 }
 

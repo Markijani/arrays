@@ -2,8 +2,7 @@ package us.kvitko.arrays.util;
 
 public class ArraysOperation {
 
-    public static void setTotal() {
-        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
+    public static void setTotal(int[] arr) {
         int total = 0;
         for (int i = 0; i < arr.length; i++) {
             total += arr[i];
@@ -11,8 +10,7 @@ public class ArraysOperation {
         System.out.println("Sum numbers of array:" + " " + total);
     }
 
-    public static void countEvenNumbers() {
-        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
+    public static void countEvenNumbers(int[] arr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
@@ -22,8 +20,7 @@ public class ArraysOperation {
         System.out.println("Number of even numbers:" + " " + count);
     }
 
-    public static void countOddNumbers() {
-        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
+    public static void countOddNumbers(int[] arr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
@@ -33,8 +30,7 @@ public class ArraysOperation {
         System.out.println("Number of odd numbers:" + " " + count);
     }
 
-    public static void countPrimeNumbers() {
-        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
+    public static void countPrimeNumbers(int[] arr) {
         int count = 0;
         for (int i = 2; i < arr.length; i++) {
             boolean isPrime = true;
@@ -51,8 +47,7 @@ public class ArraysOperation {
         System.out.println("Number of prime numbers:" + " " + count);
     }
 
-    public static void findSubtractEvenOdd() {
-        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
+    public static void findSubtractEvenOdd(int[] arr) {
         int sum1 = 0;
         int sum2 = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -66,8 +61,7 @@ public class ArraysOperation {
         System.out.println(sum1 - sum2);
     }
 
-    public static void findNull() {
-        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
+    public static void findNull(int [] arr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {

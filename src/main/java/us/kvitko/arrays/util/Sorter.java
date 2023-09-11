@@ -1,11 +1,10 @@
 package us.kvitko.arrays.util;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Sorter {
 
-    public static void sortArray(int [] arr1) {
+    public static void sortArray(int[] arr1) {
         boolean isSorted = false;
         int buf;
         while (!isSorted) {

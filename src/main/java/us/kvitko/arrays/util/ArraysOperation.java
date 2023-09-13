@@ -47,11 +47,12 @@ public class ArraysOperation {
         System.out.println("Number of prime numbers:" + " " + count);
     }
 
-    public static void findSubtractEvenOdd(int[] arr) {
+    public static void calcSubtractEvenOdd(int[] arr) {
         int sum1 = 0;
         int sum2 = 0;
         for (int i = 0; i < arr.length; i++) {
             if (i % 2 == 0) {
+
                 sum1 += arr[i];
             }
             if (i % 2 != 0) {
@@ -61,7 +62,7 @@ public class ArraysOperation {
         System.out.println(sum1 - sum2);
     }
 
-    public static void findNull(int[] arr) {
+    public static void calcZero(int[] arr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {

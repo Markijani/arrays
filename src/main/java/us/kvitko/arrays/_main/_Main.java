@@ -14,8 +14,8 @@ public class _Main {
         ArraysOperation.countEvenNumbers(arr);
         ArraysOperation.countOddNumbers(arr);
         ArraysOperation.countPrimeNumbers(arr);
-        ArraysOperation.findSubtractEvenOdd(arr);
-        ArraysOperation.findNull(arr);
+        ArraysOperation.calcSubtractEvenOdd(arr);
+        ArraysOperation.calcZero(arr);
         Sorter.sortArray(arr1);
     }
 }

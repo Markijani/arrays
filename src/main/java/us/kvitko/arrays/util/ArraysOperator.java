@@ -1,6 +1,6 @@
 package us.kvitko.arrays.util;
 
-public class ArraysOperation {
+public class ArraysOperator {
 
     public static void setTotal(int[] arr) {
         int total = 0;
@@ -17,7 +17,7 @@ public class ArraysOperation {
                 count++;
             }
         }
-        System.out.println("Number of even numbers:" + " " + count);
+        System.out.println("Number of even numbers: " +  count);
     }
 
     public static void countOddNumbers(int[] arr) {
@@ -27,7 +27,7 @@ public class ArraysOperation {
                 count++;
             }
         }
-        System.out.println("Number of odd numbers:" + " " + count);
+        System.out.println("Number of odd numbers: "  + count);
     }
 
     public static void countPrimeNumbers(int[] arr) {
@@ -44,7 +44,7 @@ public class ArraysOperation {
                 count++;
             }
         }
-        System.out.println("Number of prime numbers:" + " " + count);
+        System.out.println("Number of prime numbers: "  + count);
     }
 
     public static void calcSubtractEvenOdd(int[] arr) {
@@ -52,7 +52,6 @@ public class ArraysOperation {
         int sum2 = 0;
         for (int i = 0; i < arr.length; i++) {
             if (i % 2 == 0) {
-
                 sum1 += arr[i];
             }
             if (i % 2 != 0) {
@@ -69,7 +68,7 @@ public class ArraysOperation {
                 count++;
             }
         }
-        System.out.println("The number 0 occurs:" + " " + count);
+        System.out.println("The number 0 occurs: "  + count);
     }
 }
 
